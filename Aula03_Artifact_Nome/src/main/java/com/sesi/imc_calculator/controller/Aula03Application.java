@@ -1,13 +1,13 @@
-package Teste1.demo_02;
+package com.sesi.imc_calculator.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Demo02Application {
-
+public class Aula03Application {
+    
 	public static void main(String[] args) {
-		SpringApplication.run(Demo02Application.class, args);
+		SpringApplication.run(Aula03Application.class, args);
 	}
 
 }
