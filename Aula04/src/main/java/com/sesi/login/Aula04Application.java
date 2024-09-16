@@ -1,13 +1,13 @@
-package com.sesi.imc_calculator.controller;
+package com.sesi.login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Aula03Application {
-    
+public class Aula04Application {
+
 	public static void main(String[] args) {
-		SpringApplication.run(Aula03Application.class, args);
+		SpringApplication.run(Aula04Application.class, args);
 	}
 
 }
