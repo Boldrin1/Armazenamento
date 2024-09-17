@@ -8,17 +8,20 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Papel {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idPapel;
 	
-    @Column(nullable = false, unique = true)
+	@Column(nullable = false, unique = true)
 	private String nomePapel;
-    
-
+	
+	
+	
+	public Papel() {
+	}
+	
 
 	public Papel(Long idPapel, String nomePapel) {
-		super();
 		this.idPapel = idPapel;
 		this.nomePapel = nomePapel;
 	}
@@ -38,6 +41,6 @@ public class Papel {
 	public void setNomePapel(String nomePapel) {
 		this.nomePapel = nomePapel;
 	}
-    
-    
+	
+	
 }
