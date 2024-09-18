@@ -8,5 +8,5 @@ import com.sesi.login.model.Usuario;
 
 @Repository
 public interface PapelRepository extends JpaRepository<Papel, Long>{
-    Usuario findByNomePapel(String nomeUsuario);
+    Papel findByNomePapel(String nomeUsuario);
 }
