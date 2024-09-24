@@ -13,12 +13,18 @@ public class Usuario {
 	
 	private String nome;
 	private String email;
+	
+	
+	public Usuario() {
+	}
+	
+	
 	public Usuario(int id, String nome, String email) {
-		super();
 		this.id = id;
 		this.nome = nome;
 		this.email = email;
 	}
+	
 	public int getId() {
 		return id;
 	}
