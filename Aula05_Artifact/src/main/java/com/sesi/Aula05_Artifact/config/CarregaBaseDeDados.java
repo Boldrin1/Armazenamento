@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.CommandLineRunner;
 
 import com.sesi.Aula05_Artifact.model.TarefaCategoria;
-import com.sesi.Aula05_Artifact.repository.TarefaCategoriaRepository;
+import com.sesi.Aula05_Artifact.repository.tarefaCategoriaRepository;
 
 
 
@@ -15,7 +15,7 @@ import com.sesi.Aula05_Artifact.repository.TarefaCategoriaRepository;
 public class CarregaBaseDeDados {
 
 	@Autowired
-	private TarefaCategoriaRepository tarefaCategoriaRepository;
+	private tarefaCategoriaRepository tarefaCategoriaRepository;
 	
 	@Bean
 		CommandLineRunner executar() {
