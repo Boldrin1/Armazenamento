@@ -6,6 +6,4 @@ import com.sesi.tarefas.model.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer>{
 
-	
-	
 }
